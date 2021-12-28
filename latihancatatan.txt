@@ -1,0 +1,33 @@
+module cocok untuk mengatur component
+singletons, dapat di imported multiple other modules
+
+defined annotating class with 
+@module
+
+properties
+providers = > instantantiated within module
+export => export other module
+
+formModule
+postModule, commentModule, authModule
+
+handlers => used for controller class decorated with decorators such as @get, @post, @delete
+
+not all providers are services
+
+singleton when wrapped with @injectable() and provide to a module. the same instance will
+be shared across the application - acting as a single source of truth
+
+DTO carrier data between process
+
+typeorm 
+support active record & dataMapper
+active record 
+
+in submodule forFeature (taskmodule)
+in root for forroot
+
+interac database async operation
+
+findOne typeorm find that matches some id or find options
+lower means toLowerCase
